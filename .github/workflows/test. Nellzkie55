@@ -1,4 +1,4 @@
-name: Test
+name: Nellzkie55
 
 on:
   push:
@@ -14,7 +14,7 @@ permissions:
 jobs:
   test:
     strategy:
-      fail-fast: false
+      fail-fast:
       matrix:
         test_type:
           - collections
